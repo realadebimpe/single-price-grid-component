@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet");
+
+:root{
+    /* ### Primary */
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+--light-cyan: hsl(179, 47%, 52%);
+
+/* ### Neutral */
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Grayish-Blue);
+}
+
+.page-wrapper{
+    width: 375px;
+    margin: 70px 28px;
+}
+
+.section-1{
+    width: 318px;
+    height: 276px;
+    background-color: white;
+    padding: 24px;
+}
+
+.join{
+    font-size: 20px;
+    color: var(--Cyan);
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.hassle{
+    width: 233px;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: var(--Bright-Yellow);
+}
+
+.gain{
+    width: 267px;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--Grayish-Blue);
+    margin-top: 21px;
+    font-weight: 400;
+    
+}
+
+.section-2{
+    background-color: var(--Cyan);
+    width: 318px;
+    height: 234px;
+    padding: 24px;
+}
+
+.monthly{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 26px;
+}
+
+h2{
+    font-weight: 700;
+    color: white;
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+span{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.full{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button{
+    border: none;
+    background-color: var(--Bright-Yellow);
+    width: 268px;
+    padding: 15px 104px;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+}
+
+.section-3{
+    background-color: var(--light-cyan);
+    width: 318px;
+    height: 232px;
+    padding: 24px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 26px;
+}
+
+p{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
