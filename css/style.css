@@ -118,10 +118,11 @@ h1{
     margin-top: 26px;
 }
 
-p{
+li{
     list-style-type: none;
     color: white;
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 8px;
 }
 
